@@ -1,0 +1,50 @@
+public class HelloWorld{
+
+     public static void main(String []args)
+     {
+        
+        int num1 = 6;
+        int num2 = 2;
+        int num3 = 3;
+        int total = 6;
+        
+        
+        
+        if(num1 > 8128)
+        {
+            System.out.println("Sorry can't run program");
+            
+        }
+        else
+        {
+             //perfect numbers are 6
+             //6/6=1
+             //6/2=3
+             //6/3=2
+             System.out.println("There is a possibilty the program can run");
+            if (num1/num1 ==1)
+            {
+                total=total-1;
+               // System.out.println(total);
+                
+            }
+            if(num1/num2==3)
+            
+            {
+                total=total-3;
+                
+            }
+            if(num1/num3==2)
+            {
+                total=total-2;
+            }
+            if(total==0)
+            {
+                System.out.println("It is a perfect number");
+            }
+            
+         }
+            
+        }
+        
+}
